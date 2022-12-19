@@ -15,6 +15,10 @@ line(x/2,y/2-100,x/2+80,y/2+50);
 line(x/2-80,y/2+50,x/2+80,y/2+50);
 //
 
+rectangle(x/2-80,y/2+50,x/2+80,y/2-50);
+ellipse(x/2,y/2,0,360,40,35);
+	     ellipse(x/2,y/2+50,0,-180,50,59);
+
 outtextxy(100 + 100, 200 + 325, "woo");
 getch();
 closegraph();

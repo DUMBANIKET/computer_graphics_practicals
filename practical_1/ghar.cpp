@@ -1,6 +1,5 @@
 
 #include  <graphics.h>
-#include<conio.h>
 void main()
 {
     int     driver = DETECT;
